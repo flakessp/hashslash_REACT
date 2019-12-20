@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Hello from "./hello";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Привет Мир</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Hello message="🙂" />
     </div>
   );
 }
